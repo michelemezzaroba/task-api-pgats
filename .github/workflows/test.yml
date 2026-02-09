@@ -1,8 +1,8 @@
-name: CI
+name: CI task-api-pgats
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   test:
